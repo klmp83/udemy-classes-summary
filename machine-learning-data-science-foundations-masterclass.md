@@ -29,6 +29,14 @@ x[0] # zero-indexed
 type(x[0])
 ```
 
+```
+# Transposing a regular 1-D array has no effect...
+x_t = x.T
+
+# ...but it does we use nested "matrix-style" brackets: 
+y = np.array([[25, 2, 5]])
+```
+
 
 
 
