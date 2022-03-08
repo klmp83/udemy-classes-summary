@@ -37,9 +37,33 @@ x_t = x.T
 y = np.array([[25, 2, 5]])
 ```
 
+### Norms and Unit Vectors
+#### Norms
+- Norms are class of functions that allow us to quantify the magnitude, the length of a given vector
+- L2 Norm is important: sqrt(sum(x^2))
+- Measure simple (Euclidean) distance from origin
+- expression: ||x|| or ||x||^2
+```
+x # array([25, 2, 5])
+(25**2 + 2**2, 5**2)**(1/2)
+np.linalg.norm(x)
+```
+#### Unit Vectors
+- Special case of vector where its length is equal to one
+- L1 Norm: sum(abs(x))
+```
+np.abs(25) + np.abs(2) + np.abs(5)
+```
+#### Max Norms
+- max(abs(x))
+#### L^p Norm
+- sum(abs(x)^p)^(1/p)
+- p must be grater than or equal to 1
 
 
-
+# Terms
+- Superscript
+- Subscript
 
 # References
 - https://github.com/jonkrohn/ML-foundations
