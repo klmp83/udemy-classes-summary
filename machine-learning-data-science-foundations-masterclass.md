@@ -86,7 +86,7 @@ np.abs(25) + np.abs(2) + np.abs(5)
 
 ### Segment intro
 - Data Structures for algebra
-- Common Tensor Operations
+- Common Tensor Operations (now)
 - Matrix Peroperties
 
 ### Tensor Transposition
@@ -99,6 +99,14 @@ np.abs(25) + np.abs(2) + np.abs(5)
 
 ### The Dot Product
 - np.dot(x, y)
+
+
+# Section 3: Matrix Properties
+
+### Segment intro
+- Data Structures for algebra
+- Common Tensor Operations
+- Matrix Peroperties (now)
 
 
 
