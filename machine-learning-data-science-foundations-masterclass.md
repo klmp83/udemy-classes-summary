@@ -74,13 +74,25 @@ np.abs(25) + np.abs(2) + np.abs(5)
 - Two dementional array of numbers
 - Denoted in uppercase, italics, bold, e.g: X
 - Colon represents and entire row of colum
-  Left column of matrix X is X(subscript of :,1)
-  Middle row of matrix X is X(subscript of 2,:)
-  
+-- Left column of matrix X is X(subscript of :,1)
+-- Middle row of matrix X is X(subscript of 2,:)
+
+### Generic Tensor Notation
+- Uppercase, bold, italics, sans serif, e.g.: X
+- In a 4 tnesors X, element a position (i,j,k,l)O denoted as X(subscript of (i,j,k,l))
 
 
+# Section 2: Tensor Operations
 
+### Segment intro
+- Data Structures for algebra
+- Common Tensor Operations
+- Matrix Peroperties
 
+### Tensor Transposition
+- Transpose of scala is itself
+- Transpose of vector converts columns to row (and vice versa)
+- X(superscript of T)(subscript of i,j) = X(subscript of j,i)
 
 
 
