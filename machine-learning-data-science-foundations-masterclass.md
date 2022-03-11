@@ -94,6 +94,14 @@ np.abs(25) + np.abs(2) + np.abs(5)
 - Transpose of vector converts columns to row (and vice versa)
 - X(superscript of T)(subscript of i,j) = X(subscript of j,i)
 
+### Tensor Reduction
+- X.sum(), X.sum(axis=0) # summjming over all columns, tf.reduce_sum(X_tf, 0)
+
+### The Dot Product
+- np.dot(x, y)
+
+
+
 
 
 # Terms
