@@ -60,6 +60,29 @@ np.abs(25) + np.abs(2) + np.abs(5)
 - sum(abs(x)^p)^(1/p)
 - p must be grater than or equal to 1
 
+### Basis, Orthogonal, and Orthonormal Vectors
+#### Basis Vectors
+- Can be scaled to represent any vector in a given vector space
+- Typically use unit vectors along axes of vector space
+
+#### Orthogonal Vectors
+- x and y are orthogonal vectors if (x^t)y = 0
+- are at 90 degree angle to each other
+- n-dimentilanl space has max n mutually orthogonal vectors
+
+### Matrix Tensors
+- Two dementional array of numbers
+- Denoted in uppercase, italics, bold, e.g: X
+- Colon represents and entire row of colum
+  Left column of matrix X is X(subscript of :,1)
+  Middle row of matrix X is X(subscript of 2,:)
+  
+
+
+
+
+
+
 
 # Terms
 - Superscript
